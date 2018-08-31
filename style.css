@@ -1,0 +1,162 @@
+
+/* HEADER */
+header {
+  text-align: center;
+}
+
+header #banner {
+  background: url(https://www.colourbox.com/preview/5167861-animal-cartoon.jpg) no-repeat;
+  background-size: contain;
+  background-position: top center;
+  min-height: 700px;
+  margin: 50px 0;
+}
+
+.menu:hover {
+  font-size: 120%;
+}
+
+header h1 {
+  width: 100%;
+  color: #f3a023;
+  font-size: 155px;
+}
+
+header nav {
+  width: 100%;
+  border-top: 3px solid #f3a023;
+  border-bottom: 3px solid #f3a023;
+}
+
+header nav li {
+  margin: 0 auto;
+}
+
+ul li:nth-child(1n) a {
+  color: #e00e23;
+}
+ul li:nth-child(2n) a {
+  color: #76c29a;
+}
+ul li:nth-child(3n) a {
+  color: #7eb7d1;
+}
+ul li:nth-child(4n) a {
+  color: #e834fd;
+}
+
+nav,
+li {
+  justify-content: flex-start;
+  margin-right: 50px;
+  font-size: 40px;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 20px;
+  justify-content: flex-start;
+}
+/*HEADER END*/
+
+/*le site en general*/
+
+body {
+  font-family: "Arial";
+  font-size: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+div > img {
+  max-width: 200px;
+
+}
+/*le site en general*/
+
+#nos_animaux {
+  text-align: center;
+  font-size: 70px;
+  color: black;
+}
+
+.animaux {
+  overflow: hidden; /* simple clearfix */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.animaux .animal{
+ width: 30%;
+ padding: 1%;
+ margin: 0 auto;
+ text-align: center;
+}
+
+.animaux img {
+  width:250px;
+  height:250px;
+}
+
+.animal:hover{
+  font-size: 120%;
+}
+
+#carte_zoo {
+  text-align: center;
+  font-size: 70px;
+  color: black;
+}
+
+#carte_zoo_background {
+      background: url(https://thumbs.dreamstime.com/z/carte-d-un-parc-de-zoo-47436344.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1110px;
+}
+
+#tarif {
+  text-align: center;
+  font-size: 70px;
+  color: black;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 100%;
+}
+td,
+th {
+  border: 1px solid #7eb7d1;
+  color: #7eb7d1;
+}
+tr {
+  text-align: center;
+}
+
+#contact {
+  text-align: center;
+  font-size: 70px;
+  color: black;
+}
+
+#transport {
+  height: 500px;
+  width: 700px;
+}
+
+#tc {
+  height: 500px;
+  width: 700px;
+}
+
+#velib{
+  background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+}
